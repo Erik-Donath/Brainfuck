@@ -8,10 +8,10 @@
 mono_crash.*
 
 # Build results
-Brainfuck\build\Release-x64\intermediate
-Brainfuck\build\Release-Win32\intermediate
-Brainfuck\build\Debug-x64\intermediate
-Brainfuck\build\Debug-Win32\intermediate
+Brainfuck\build\Release-x64\intermediate\
+Brainfuck\build\Release-Win32\intermediate\
+Brainfuck\build\Debug-x64\intermediate\
+Brainfuck\build\Debug-Win32\intermediate\
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
