@@ -15,11 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Assembler.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
     <ClCompile Include="src\Main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\current.bf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Assembler.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Types.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

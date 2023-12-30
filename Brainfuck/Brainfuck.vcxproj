@@ -151,10 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Assembler.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\current.bf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Assembler.h" />
+    <ClInclude Include="src\Types.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
